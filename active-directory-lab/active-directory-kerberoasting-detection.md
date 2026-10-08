@@ -56,7 +56,7 @@ Accounts with SPNs can receive Kerberos service tickets. These tickets are relev
 
 ## 4. Kerberoasting Simulation
 
-First, an enumeration of users and services was made using impacket, and the SPN `svc_web` was found.
+First, an enumeration of users and services was made using impacket, and the SPN `HTTP/webapp.corp.local` was found.
 
 ![Kerberoasting TGS request](images/spn-users-enum.png)
 
