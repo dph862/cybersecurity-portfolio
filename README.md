@@ -20,6 +20,8 @@ Practical labs focused on building and tuning detection rules with Wazuh.
 - **[Suspicious PowerShell Detection](siem-wazuh-labs/powershell-detection-lab/suspicious-powershell-detection.md)**  
   Simulated encoded PowerShell execution with Atomic Red Team, analyzed Sysmon and PowerShell logs in Wazuh, decoded the payload with CyberChef, and created a custom detection rule mapped to MITRE ATT&CK `T1059.001`.
 
+### 🔍 Active Directory Labs
+
 - **[Active Directory Kerberoasting Detection](active-directory-lab/active-directory-kerberoasting-detection.md)**  
   Built an Active Directory lab with a Domain Controller, domain users and a service account with an SPN. Simulated Kerberoasting from Kali using Impacket, analyzed Windows Security Event ID 4769 and RC4-HMAC encryption in Wazuh, and created a custom detection rule mapped to MITRE ATT&CK T1558.003.
 
